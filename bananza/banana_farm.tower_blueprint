@@ -1,0 +1,1388 @@
+{
+    "version_code": 0,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "banana_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "banana_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 15.0
+            }
+        },
+        {
+            "key": "banana_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "banana_movement_time",
+            "variable": {
+                "type": "Float",
+                "value": 0.44999998807907107
+            }
+        },
+        {
+            "key": "banana_max_radius",
+            "variable": {
+                "type": "Float",
+                "value": 30.0
+            }
+        },
+        {
+            "key": "banana_min_radius",
+            "variable": {
+                "type": "Float",
+                "value": 15.0
+            }
+        },
+        {
+            "key": "banana_ammo_count",
+            "variable": {
+                "type": "Int",
+                "value": 3
+            }
+        },
+        {
+            "key": "banana_value",
+            "variable": {
+                "type": "Float",
+                "value": 80.0
+            }
+        },
+        {
+            "key": "banana_collect_radius",
+            "variable": {
+                "type": "Float",
+                "value": 50.0
+            }
+        },
+        {
+            "key": "banana_auto_collect",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "banana_auto_collect_value_modifier",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "banana_instant_collect",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bank_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "monkey_bank_ref",
+            "variable": {
+                "type": "Node",
+                "value": 18
+            }
+        },
+        {
+            "key": "banana_crate",
+            "variable": {
+                "type": "Node",
+                "value": 19
+            }
+        },
+        {
+            "key": "visual_slot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "imf_ability",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "enable_imf_loan",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "cash_bonus_amount",
+            "variable": {
+                "type": "Float",
+                "value": 10000.0
+            }
+        },
+        {
+            "key": "debt_amount",
+            "variable": {
+                "type": "Float",
+                "value": 20000.0
+            }
+        },
+        {
+            "key": "loan_amount",
+            "variable": {
+                "type": "Float",
+                "value": 20000.0
+            }
+        },
+        {
+            "key": "imf_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 90.0
+            }
+        },
+        {
+            "key": "end_of_round_bonus",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "enable_central_market",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "monkey_bank_full_glow",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "monkey_bank_full_autocollect",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "banana_despawn_effect_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": true
+            }
+        },
+        {
+            "key": "banana_collect_effect_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": true
+            }
+        },
+        {
+            "key": "enable_ambient_vfx",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bonus_launcher",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "proj_end_of_round_bonus",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "enable_end_of_round_bonus",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "loan_ability_icon_slot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "central_market_merchant_boost_multiplier",
+            "variable": {
+                "type": "Float",
+                "value": 0.10000000149011612
+            }
+        },
+        {
+            "key": "banana_central_buff_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "mod_banana_central_ref",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "mod_banana_central_icon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "mod_central_market_ref",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "mod_central_market_icon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "imf_loan_id",
+            "variable": {
+                "type": "String",
+                "value": "imf_loan"
+            }
+        },
+        {
+            "key": "monkey_bank_capacity",
+            "variable": {
+                "type": "Float",
+                "value": 14000.0
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_TOWER_NAME_BananaFarm",
+            "description": "LOC_TOWER_DESC_BananaFarm",
+            "cost": 1100.0,
+            "unlock_cost_monkey_money": 250.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower",
+                "tower_type": "BananaFarm",
+                "tower_category": "Support",
+                "valid_targeting_modes": "First|Last|Close|Strong",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Rectangle",
+                    "rect_size_x": 27.0,
+                    "rect_size_y": 27.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true
+                },
+                "range": 40.0,
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "inherit_target_mode_from_parent": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "ignore_map_area_overlap": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "use_alternative_cost_multipliers": false,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "banana_weapon",
+                    "imf_ability",
+                    "bonus_launcher"
+                ],
+                "mod_provider_props": {
+                    "type": "SModProviderProps",
+                    "enabled": true,
+                    "parent_dependant": true,
+                    "modifier_props": [
+                        "mod_banana_central_ref",
+                        "mod_banana_central_icon_ref",
+                        "mod_central_market_ref",
+                        "mod_central_market_icon_ref"
+                    ]
+                },
+                "bank_props": [
+                    "monkey_bank_ref"
+                ],
+                "active_vfx_props": [
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": "enable_ambient_vfx",
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 3,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_UPGRADE_NAME_Increased_Production",
+            "description": "LOC_UPGRADE_DESC_Increased_Production",
+            "parent_id": 0,
+            "cost": 650.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_ammo_count",
+                    "expression": "x+2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_UPGRADE_NAME_Greater_Production",
+            "description": "LOC_UPGRADE_DESC_Greater_Production",
+            "parent_id": 1,
+            "cost": 600.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_ammo_count",
+                    "expression": "x+2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_UPGRADE_NAME_Banana_Plantation",
+            "description": "LOC_UPGRADE_DESC_Banana_Plantation",
+            "parent_id": 2,
+            "cost": 3000.0,
+            "cost_xp": 3000.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_ammo_count",
+                    "expression": "16"
+                },
+                {
+                    "key": "enable_ambient_vfx",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_UPGRADE_NAME_Banana_Research_Facility",
+            "description": "LOC_UPGRADE_DESC_Banana_Research_Facility",
+            "parent_id": 3,
+            "cost": 18000.0,
+            "cost_xp": 20000.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_projectile",
+                    "expression": "19"
+                },
+                {
+                    "key": "banana_ammo_count",
+                    "expression": "5"
+                },
+                {
+                    "key": "visual_slot",
+                    "expression": "1"
+                },
+                {
+                    "key": "banana_value",
+                    "expression": "1200"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_UPGRADE_NAME_Banana_Central",
+            "description": "LOC_UPGRADE_DESC_Banana_Central",
+            "parent_id": 4,
+            "cost": 65000.0,
+            "cost_xp": 50000.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_value",
+                    "expression": "x*5"
+                },
+                {
+                    "key": "banana_central_buff_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_UPGRADE_NAME_Long_Life_Bananas",
+            "description": "LOC_UPGRADE_DESC_Long_Life_Bananas",
+            "parent_id": 0,
+            "cost": 300.0,
+            "cost_xp": 200.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_lifespan",
+                    "expression": "x*2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_UPGRADE_NAME_Valuable_Bananas",
+            "description": "LOC_UPGRADE_DESC_Valuable_Bananas",
+            "parent_id": 6,
+            "cost": 800.0,
+            "cost_xp": 1000.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_value",
+                    "expression": "x + x*0.25"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_UPGRADE_NAME_Monkey_Bank",
+            "description": "LOC_UPGRADE_DESC_Monkey_Bank",
+            "parent_id": 7,
+            "cost": 5500.0,
+            "cost_xp": 3500.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "bank_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "banana_lifespan",
+                    "expression": "0"
+                },
+                {
+                    "key": "banana_auto_collect",
+                    "expression": "true"
+                },
+                {
+                    "key": "banana_auto_collect_value_modifier",
+                    "expression": "1"
+                },
+                {
+                    "key": "banana_despawn_effect_enabled",
+                    "expression": "false"
+                },
+                {
+                    "key": "banana_collect_effect_enabled",
+                    "expression": "false"
+                },
+                {
+                    "key": "enable_ambient_vfx",
+                    "expression": "true"
+                },
+                {
+                    "key": "end_of_round_bonus",
+                    "expression": "300"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_UPGRADE_NAME_IMF_loan",
+            "description": "LOC_UPGRADE_DESC_IMF_loan",
+            "parent_id": 8,
+            "cost": 7500.0,
+            "cost_xp": 20000.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_imf_loan",
+                    "expression": "true"
+                },
+                {
+                    "key": "enable_ambient_vfx",
+                    "expression": "false"
+                },
+                {
+                    "key": "monkey_bank_capacity",
+                    "expression": "15000"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_UPGRADE_NAME_Monkey-Nomics",
+            "description": "LOC_UPGRADE_DESC_Monkey-Nomics",
+            "parent_id": 9,
+            "cost": 50000.0,
+            "cost_xp": 50000.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "imf_cooldown",
+                    "expression": "60"
+                },
+                {
+                    "key": "debt_amount",
+                    "expression": "0"
+                },
+                {
+                    "key": "loan_ability_icon_slot",
+                    "expression": "1"
+                },
+                {
+                    "key": "imf_loan_id",
+                    "expression": "\"monkey_nomics_loan\""
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_UPGRADE_NAME_EZ_Collect",
+            "description": "LOC_UPGRADE_DESC_EZ_Collect",
+            "parent_id": 0,
+            "cost": 250.0,
+            "cost_xp": 200.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_collect_radius",
+                    "expression": "x + 0.5*x"
+                },
+                {
+                    "key": "banana_instant_collect",
+                    "expression": "true"
+                },
+                {
+                    "key": "monkey_bank_full_glow",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_UPGRADE_NAME_Banana_Salvage",
+            "description": "LOC_UPGRADE_DESC_Banana_Salvage",
+            "parent_id": 11,
+            "cost": 200.0,
+            "cost_xp": 950.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_auto_collect",
+                    "expression": "true"
+                },
+                {
+                    "key": "monkey_bank_full_autocollect",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_UPGRADE_NAME_Marketplace",
+            "description": "LOC_UPGRADE_DESC_Marketplace",
+            "parent_id": 12,
+            "cost": 3100.0,
+            "cost_xp": 3200.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "banana_ammo_count",
+                    "expression": "x+11"
+                },
+                {
+                    "key": "banana_lifespan",
+                    "expression": "0"
+                },
+                {
+                    "key": "banana_auto_collect_value_modifier",
+                    "expression": "1"
+                },
+                {
+                    "key": "banana_despawn_effect_enabled",
+                    "expression": "false"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_UPGRADE_NAME_Central_Market",
+            "description": "LOC_UPGRADE_DESC_Central_Market",
+            "parent_id": 13,
+            "cost": 14000.0,
+            "cost_xp": 20000.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_central_market",
+                    "expression": "true"
+                },
+                {
+                    "key": "banana_value",
+                    "expression": "320"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_UPGRADE_NAME_Monkey_Wall_Street",
+            "description": "LOC_UPGRADE_DESC_Monkey_Wall_Street",
+            "parent_id": 14,
+            "cost": 45000.0,
+            "cost_xp": 50000.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_end_of_round_bonus",
+                    "expression": "true"
+                },
+                {
+                    "key": "end_of_round_bonus",
+                    "expression": "10000"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "Bananas",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": "banana_ammo_count",
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": true,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": true,
+                "dump_leftover_ammo_on_round_start": false,
+                "spread_ammo_use_evenly_during_round": true,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "random_props": {
+                        "type": "SRandomSquareProps",
+                        "enabled": true,
+                        "min_offset": "banana_min_radius",
+                        "max_offset": "banana_max_radius"
+                    },
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "banana_projectile"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "Banana",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 5.0,
+                "infinite_collision_radius": false,
+                "damage": 1.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "banana_lifespan"
+                },
+                "vfx_on_despawn": {
+                    "type": "SVisualEffectProps",
+                    "enabled": "banana_despawn_effect_enabled",
+                    "effect_visual_slot": 0,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionTweenProps",
+                    "enabled": true,
+                    "duration": "banana_movement_time",
+                    "tween_type": "\"elastic_out\"",
+                    "tween_elevation": false,
+                    "start_elevation": 0.0,
+                    "end_elevation": 0.0,
+                    "elevation_tween_type": "\"linear\""
+                },
+                "collectable_props": {
+                    "type": "SCollectableCashProps",
+                    "enabled": true,
+                    "min_value": "banana_value",
+                    "max_value": "banana_value",
+                    "collect_radius": "banana_collect_radius",
+                    "collect_speed": 5.0,
+                    "collectable_delay_seconds": 0.0,
+                    "instant_collect": "banana_instant_collect",
+                    "auto_collect": "banana_auto_collect",
+                    "auto_collect_value_modifier": "banana_auto_collect_value_modifier",
+                    "contribute_to_tower_score": true,
+                    "store_in_bank_props": "monkey_bank_ref",
+                    "vfx_on_collect": {
+                        "type": "SVisualEffectProps",
+                        "enabled": "banana_collect_effect_enabled",
+                        "effect_visual_slot": 1,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 18,
+            "name": "Monkey Bank",
+            "props": {
+                "type": "SBankProps",
+                "enabled": "bank_enabled",
+                "storage_type": "Money",
+                "max_value": "monkey_bank_capacity",
+                "interest_at_round_end": 0.15000000596046449,
+                "bonus_at_round_end": "end_of_round_bonus",
+                "autocollect_when_full_at_round_end": "monkey_bank_full_autocollect",
+                "withdraw_animation_trigger": "\"withdraw\"",
+                "tower_mods_when_full": [
+                    {
+                        "type": "STowerModifierProps",
+                        "enabled": "monkey_bank_full_glow",
+                        "is_multi_dependent": false,
+                        "group_id": {
+                            "group_str": ""
+                        },
+                        "accumulate_modifier": false,
+                        "mod": {
+                            "type": "STowerActiveVFXMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "new_active_vfx_props": [
+                                {
+                                    "type": "SActiveVFXProps",
+                                    "enabled": true,
+                                    "vfx_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 2,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "vfx_on_collect": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 1,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false
+                },
+                "graveyard_absorption_range": 0.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 19,
+            "name": "Banana Crate",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 5.0,
+                "infinite_collision_radius": false,
+                "damage": 1.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "banana_lifespan"
+                },
+                "vfx_on_despawn": {
+                    "type": "SVisualEffectProps",
+                    "enabled": "banana_despawn_effect_enabled",
+                    "effect_visual_slot": 0,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionTweenProps",
+                    "enabled": true,
+                    "duration": "banana_movement_time",
+                    "tween_type": "\"elastic_out\"",
+                    "tween_elevation": false,
+                    "start_elevation": 0.0,
+                    "end_elevation": 0.0,
+                    "elevation_tween_type": "\"linear\""
+                },
+                "collectable_props": {
+                    "type": "SCollectableCashProps",
+                    "enabled": true,
+                    "min_value": "banana_value",
+                    "max_value": "banana_value",
+                    "collect_radius": "banana_collect_radius",
+                    "collect_speed": 5.0,
+                    "collectable_delay_seconds": 0.0,
+                    "instant_collect": "banana_instant_collect",
+                    "auto_collect": "banana_auto_collect",
+                    "auto_collect_value_modifier": "banana_auto_collect_value_modifier",
+                    "contribute_to_tower_score": true,
+                    "vfx_on_collect": {
+                        "type": "SVisualEffectProps",
+                        "enabled": "banana_collect_effect_enabled",
+                        "effect_visual_slot": 1,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "IMF Ability",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_imf_loan",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "imf_loan_id"
+                    },
+                    "ability_icon_slot": "loan_ability_icon_slot",
+                    "cooldown_time": "imf_cooldown",
+                    "initial_cooldown_mod": 0.3333333432674408,
+                    "requires_valid_target": false,
+                    "debt_lock": true,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "give_player_cash": {
+                        "type": "SCashLoanProps",
+                        "enabled": true,
+                        "amount": "loan_amount",
+                        "debt": "debt_amount",
+                        "percent_income_reduction": 0.5
+                    },
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "EOR Bonus Launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_end_of_round_bonus",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": 1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": true,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": true,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "proj_end_of_round_bonus"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "End of Round Bonus",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": 1.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collectable_props": {
+                    "type": "SCollectableCashProps",
+                    "enabled": true,
+                    "min_value": "end_of_round_bonus",
+                    "max_value": "end_of_round_bonus",
+                    "collect_radius": 50.0,
+                    "collect_speed": 0.0,
+                    "collectable_delay_seconds": 0.0,
+                    "instant_collect": true,
+                    "auto_collect": true,
+                    "auto_collect_value_modifier": 1.0,
+                    "contribute_to_tower_score": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Central Market Buff",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_central_market",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerWeaponProjectileCollectableCashMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 10,
+                    "multiplier": "central_market_merchant_boost_multiplier",
+                    "additive": 0.0
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "MonkeyBuccaneer",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_upgrades": {
+                        "type": "SUpgradeTierProps",
+                        "enabled": true,
+                        "paths": [
+                            2
+                        ],
+                        "tiers": [
+                            3,
+                            4,
+                            5
+                        ]
+                    },
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false,
+                    "include_only_placement_candidate": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Central Market Buff Icon",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_central_market",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 2,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "MonkeyBuccaneer",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_upgrades": {
+                        "type": "SUpgradeTierProps",
+                        "enabled": true,
+                        "paths": [
+                            2
+                        ],
+                        "tiers": [
+                            3,
+                            4,
+                            5
+                        ]
+                    },
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false,
+                    "include_only_placement_candidate": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Banana Central Buff",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "banana_central_buff_enabled",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerWeaponProjectileCollectableCashMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.25,
+                    "additive": 0.0
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "BananaFarm",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_upgrades": {
+                        "type": "SUpgradeTierProps",
+                        "enabled": true,
+                        "paths": [
+                            0
+                        ],
+                        "tiers": [
+                            4
+                        ]
+                    },
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false,
+                    "include_only_placement_candidate": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Banana Central Buff Icon",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "banana_central_buff_enabled",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 4,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "BananaFarm",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_upgrades": {
+                        "type": "SUpgradeTierProps",
+                        "enabled": true,
+                        "paths": [
+                            0
+                        ],
+                        "tiers": [
+                            4
+                        ]
+                    },
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false,
+                    "include_only_placement_candidate": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        }
+    ]
+}
